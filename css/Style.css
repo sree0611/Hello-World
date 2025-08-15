@@ -1,0 +1,26 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title {
+  position: relative; /* Required for pseudo-element positioning */
+  display: inline-block; /* Helps keep the line size to the title width */
+  
+}
+
+
+
+.hero-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px; /* space below text */
+  width: 100px;   /* SVG size */
+  height: 10px;
+ background-image: url("../images/Line.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

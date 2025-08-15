@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-white container">
+    <!-- Layout Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 w-full">
+      <!--  1st section -->
+      <div class="lg:col-span-8">
+        <!-- Container -->
+        <div class="px-6 lg:pl-[118px] lg:pt-[25px] lg:pr-[50px]">
+          <!-- Navbar -->
+          <nav class="flex flex-wrap items-center justify-between">
+            <div class="flex items-center gap-2">
+              <img
+                src="./images/Logo (1).png"
+                alt="Logo"
+                width="67"
+                height="47"
+              />
+              <span class="font-semibold text-gray-800 text-2xl mt-3">Hello World!</span>
+            </div>
+            <div class="flex flex-wrap gap-4 sm:gap-16 text-[#838383] mt-4 lg:mt-0 text-xl">
+              <a href="#" class="hover:text-black">Course</a>
+              <a href="#" class="hover:text-black">Info</a>
+              <a href="#" class="hover:text-black">Testimonial</a>
+              <a href="#" class="hover:text-black">Categories</a>
+            </div>
+          </nav>
+          <!-- Hero section -->
+          <div class="my-10 md:mt-[40px] md:mb-[75px]">
+            <div class=" hero-title max-w-[520px]">
+              <img src="./images/Line.svg" class="absolute -top-4 left-0" />
+              <div class="relative inline-block">
+                <h2
+                  class="text-[#151515] font-bold uppercase text-3xl md:text-[50px] md:leading-[68px] pr-14"
+                >
+                  Learn graphics design for life
+                </h2>
+                <div
+                  class="bg-orange-400 p-2 rounded-full absolute bottom-[30px] right-[20px] translate-y-1"
+                >
+                  <img
+                    src="./images/Icon (1).svg"
+                    alt="icon"
+                    class="w-[27px] h-[27px]"
+                  />
+                </div>
+              </div>
+              <p class="mt-2 text-[#2D3134] text-[15px] max-w-[500px]">
+                Stay Informed, Stay Ahead: Unveiling the Future of Technology,
+                Gadgets, and Innovation
+                <br />
+                Your Gateway to the Digital Universe - Where Innovation Meets
+                Insight
+              </p>
+            </div>
+            <div class="flex items-center gap-3 py-10">
+              <div class="max-w-[100px]">
+                <p class="text-3xl font-semibold">5.1 K</p>
+                <p class="text-gray-500 text-sm">Students All Over World</p>
+              </div>
+              <div class="flex">
+                <img
+                  src="./images/Ellipse 1.png"
+                  class="w-20 h-20 rounded-full border-white"
+                />
+                <img
+                  src="./images/Ellipse 2.png"
+                  class="w-20 h-20 rounded-full border-white -ml-10"
+                />
+                <img
+                  src="./images/Ellipse 3.png"
+                  class="w-20 h-20 rounded-full border-white -ml-10"
+                />
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4 mb-8">
+              <button
+                class="bg-[#2F584E] text-white px-8 sm:px-12 py-5 rounded-full text-sm font-medium"
+              >
+                Book Your Seat
+              </button>
+              <div class="flex items-center gap-2 cursor-pointer">
+                <div
+                  class="bg-orange-400 rounded-full p-2 flex items-center justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="white"
+                    viewBox="0 0 24 24"
+                    class="w-8 h-8"
+                  >
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+                <span class="text-black font-medium">See Journey</span>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Number of items banner -->
+        <section class="bg-[#FF9257] py-8">
+          <div class="max-w-6xl flex flex-col gap-8 sm:gap-0 sm:flex-row px-[118px] text-white justify-between">
+            <div class="flex items-center sm:pr-8">
+              <div class="w-[0.15rem] h-16 bg-[#F7BE2C]"></div>
+              <div class="ml-4">
+                <p class="text-4xl font-bold">6409</p>
+                <p class="text-white/90 text-lg">Succes Story</p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="flex items-center sm:pl-8">
+              <div class="w-[0.15rem] h-16 bg-[#F7BE2C]"></div>
+              <div class="ml-4 ">
+                <p class="text-4xl font-bold">124</p>
+                <p class="text-white/90 text-lg">Expert Instructor</p>
+              </div>
+            </div>
+            <div class="flex items-center sm:pl-8">
+              <div class="w-[0.15rem] h-16 bg-[#F7BE2C]"></div>
+              <div class="ml-4">
+                <p class="text-4xl font-bold">54.749</p>
+                <p class="text-white/90 text-lg">Hours Tutored</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- 2nd section -->
+      <div class="col-span-4 relative">
+        <img src="./images/Mask group.png" class="object-cover w-full h-full" />
+        <div class="absolute inset-x-[40px] inset-y-[60px]">
+          <div class="grid grid-cols-2 align-center gap-[33px]">
+            <img src="./images/1.png" class="w-[250px]" />
+            <img src="./images/2.png" class="w-[250px]" />
+            <img src="./images/3.png" class="w-[250px]" />
+            <img src="./images/4.png" class="w-[250px]" />
+            <img src="./images/5.png" class="w-[250px]" />
+            <img src="./images/6.png" class="w-[250px]" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
